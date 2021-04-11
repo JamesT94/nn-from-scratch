@@ -15,7 +15,7 @@ def initialise_parameters(layer_dimensions):  # Successfully tested with data
 
     for l in range(1, L):
         parameters['W' + str(l)] = np.random.randn(layer_dimensions[l], layer_dimensions[l - 1]) / np.sqrt(
-            layer_dimensions[l - 1])  # *0.01
+            layer_dimensions[l - 1])
         parameters['b' + str(l)] = np.zeros((layer_dimensions[l], 1))
 
         assert (parameters['W' + str(l)].shape == (layer_dimensions[l], layer_dimensions[l - 1]))
