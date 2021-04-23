@@ -128,3 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 *.csv
+*.docx
+*.jpg
+*.db
+datasets/archive/readme[1].txt
+datasets/archive/readme[1].txt
