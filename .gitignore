@@ -133,3 +133,5 @@ dmypy.json
 *.db
 datasets/archive/readme[1].txt
 datasets/archive/readme[1].txt
+*.h5
+*.h5
